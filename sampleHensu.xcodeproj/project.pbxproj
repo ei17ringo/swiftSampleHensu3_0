@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B50329A1C573DD700ED876F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5032991C573DD700ED876F /* AppDelegate.swift */; };
+		1B50329C1C573DD700ED876F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50329B1C573DD700ED876F /* ViewController.swift */; };
+		1B50329F1C573DD700ED876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B50329D1C573DD700ED876F /* Main.storyboard */; };
+		1B5032A11C573DD700ED876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5032A01C573DD700ED876F /* Assets.xcassets */; };
+		1B5032A41C573DD700ED876F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5032A21C573DD700ED876F /* LaunchScreen.storyboard */; };
+		1B5032AF1C573DD700ED876F /* sampleHensuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5032AE1C573DD700ED876F /* sampleHensuTests.swift */; };
+		1B5032BA1C573DD700ED876F /* sampleHensuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5032B91C573DD700ED876F /* sampleHensuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5032AB1C573DD700ED876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B50328E1C573DD700ED876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5032951C573DD700ED876F;
+			remoteInfo = sampleHensu;
+		};
+		1B5032B61C573DD700ED876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B50328E1C573DD700ED876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5032951C573DD700ED876F;
+			remoteInfo = sampleHensu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5032961C573DD700ED876F /* sampleHensu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleHensu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5032991C573DD700ED876F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B50329B1C573DD700ED876F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B50329E1C573DD700ED876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B5032A01C573DD700ED876F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5032A31C573DD700ED876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5032A51C573DD700ED876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5032AA1C573DD700ED876F /* sampleHensuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleHensuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5032AE1C573DD700ED876F /* sampleHensuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleHensuTests.swift; sourceTree = "<group>"; };
+		1B5032B01C573DD700ED876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5032B51C573DD700ED876F /* sampleHensuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleHensuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5032B91C573DD700ED876F /* sampleHensuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleHensuUITests.swift; sourceTree = "<group>"; };
+		1B5032BB1C573DD700ED876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5032931C573DD700ED876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032A71C573DD700ED876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032B21C573DD700ED876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B50328D1C573DD700ED876F = {
+			isa = PBXGroup;
+			children = (
+				1B5032981C573DD700ED876F /* sampleHensu */,
+				1B5032AD1C573DD700ED876F /* sampleHensuTests */,
+				1B5032B81C573DD700ED876F /* sampleHensuUITests */,
+				1B5032971C573DD700ED876F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5032971C573DD700ED876F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5032961C573DD700ED876F /* sampleHensu.app */,
+				1B5032AA1C573DD700ED876F /* sampleHensuTests.xctest */,
+				1B5032B51C573DD700ED876F /* sampleHensuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5032981C573DD700ED876F /* sampleHensu */ = {
+			isa = PBXGroup;
+			children = (
+				1B5032991C573DD700ED876F /* AppDelegate.swift */,
+				1B50329B1C573DD700ED876F /* ViewController.swift */,
+				1B50329D1C573DD700ED876F /* Main.storyboard */,
+				1B5032A01C573DD700ED876F /* Assets.xcassets */,
+				1B5032A21C573DD700ED876F /* LaunchScreen.storyboard */,
+				1B5032A51C573DD700ED876F /* Info.plist */,
+			);
+			path = sampleHensu;
+			sourceTree = "<group>";
+		};
+		1B5032AD1C573DD700ED876F /* sampleHensuTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5032AE1C573DD700ED876F /* sampleHensuTests.swift */,
+				1B5032B01C573DD700ED876F /* Info.plist */,
+			);
+			path = sampleHensuTests;
+			sourceTree = "<group>";
+		};
+		1B5032B81C573DD700ED876F /* sampleHensuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5032B91C573DD700ED876F /* sampleHensuUITests.swift */,
+				1B5032BB1C573DD700ED876F /* Info.plist */,
+			);
+			path = sampleHensuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5032951C573DD700ED876F /* sampleHensu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5032BE1C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensu" */;
+			buildPhases = (
+				1B5032921C573DD700ED876F /* Sources */,
+				1B5032931C573DD700ED876F /* Frameworks */,
+				1B5032941C573DD700ED876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleHensu;
+			productName = sampleHensu;
+			productReference = 1B5032961C573DD700ED876F /* sampleHensu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B5032A91C573DD700ED876F /* sampleHensuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5032C11C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensuTests" */;
+			buildPhases = (
+				1B5032A61C573DD700ED876F /* Sources */,
+				1B5032A71C573DD700ED876F /* Frameworks */,
+				1B5032A81C573DD700ED876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5032AC1C573DD700ED876F /* PBXTargetDependency */,
+			);
+			name = sampleHensuTests;
+			productName = sampleHensuTests;
+			productReference = 1B5032AA1C573DD700ED876F /* sampleHensuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B5032B41C573DD700ED876F /* sampleHensuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5032C41C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensuUITests" */;
+			buildPhases = (
+				1B5032B11C573DD700ED876F /* Sources */,
+				1B5032B21C573DD700ED876F /* Frameworks */,
+				1B5032B31C573DD700ED876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5032B71C573DD700ED876F /* PBXTargetDependency */,
+			);
+			name = sampleHensuUITests;
+			productName = sampleHensuUITests;
+			productReference = 1B5032B51C573DD700ED876F /* sampleHensuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B50328E1C573DD700ED876F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eriko Ichinohe";
+				TargetAttributes = {
+					1B5032951C573DD700ED876F = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+					1B5032A91C573DD700ED876F = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1B5032951C573DD700ED876F;
+					};
+					1B5032B41C573DD700ED876F = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1B5032951C573DD700ED876F;
+					};
+				};
+			};
+			buildConfigurationList = 1B5032911C573DD700ED876F /* Build configuration list for PBXProject "sampleHensu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B50328D1C573DD700ED876F;
+			productRefGroup = 1B5032971C573DD700ED876F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5032951C573DD700ED876F /* sampleHensu */,
+				1B5032A91C573DD700ED876F /* sampleHensuTests */,
+				1B5032B41C573DD700ED876F /* sampleHensuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5032941C573DD700ED876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5032A41C573DD700ED876F /* LaunchScreen.storyboard in Resources */,
+				1B5032A11C573DD700ED876F /* Assets.xcassets in Resources */,
+				1B50329F1C573DD700ED876F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032A81C573DD700ED876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032B31C573DD700ED876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5032921C573DD700ED876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B50329C1C573DD700ED876F /* ViewController.swift in Sources */,
+				1B50329A1C573DD700ED876F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032A61C573DD700ED876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5032AF1C573DD700ED876F /* sampleHensuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5032B11C573DD700ED876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5032BA1C573DD700ED876F /* sampleHensuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5032AC1C573DD700ED876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5032951C573DD700ED876F /* sampleHensu */;
+			targetProxy = 1B5032AB1C573DD700ED876F /* PBXContainerItemProxy */;
+		};
+		1B5032B71C573DD700ED876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5032951C573DD700ED876F /* sampleHensu */;
+			targetProxy = 1B5032B61C573DD700ED876F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B50329D1C573DD700ED876F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B50329E1C573DD700ED876F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5032A21C573DD700ED876F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5032A31C573DD700ED876F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5032BC1C573DD700ED876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B5032BD1C573DD700ED876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5032BF1C573DD700ED876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleHensu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B5032C01C573DD700ED876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleHensu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B5032C21C573DD700ED876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleHensuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleHensu.app/sampleHensu";
+			};
+			name = Debug;
+		};
+		1B5032C31C573DD700ED876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleHensuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleHensu.app/sampleHensu";
+			};
+			name = Release;
+		};
+		1B5032C51C573DD700ED876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleHensuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleHensu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B5032C61C573DD700ED876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleHensuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleHensuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleHensu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5032911C573DD700ED876F /* Build configuration list for PBXProject "sampleHensu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5032BC1C573DD700ED876F /* Debug */,
+				1B5032BD1C573DD700ED876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5032BE1C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5032BF1C573DD700ED876F /* Debug */,
+				1B5032C01C573DD700ED876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5032C11C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5032C21C573DD700ED876F /* Debug */,
+				1B5032C31C573DD700ED876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5032C41C573DD700ED876F /* Build configuration list for PBXNativeTarget "sampleHensuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5032C51C573DD700ED876F /* Debug */,
+				1B5032C61C573DD700ED876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B50328E1C573DD700ED876F /* Project object */;
+}
