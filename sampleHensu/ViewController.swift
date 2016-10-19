@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         var myData2:Double = 10.1
         var myData3:String = "Hello"
         var myData4:Bool = true
+        
         // var myData5:Int = "A"
         
 //        //型変換
@@ -60,6 +61,27 @@ class ViewController: UIViewController {
         
         //　TODO:配列からフルーツの名前を取出し、デバッグエリアに順に表示せよ
         var fruitsArray = ["mango","orange","watermelon","banana","ranbutan"]
+        print("\(fruitsArray[0])")
+        print("\(fruitsArray[1])")
+        print("\(fruitsArray[2])")
+        print("\(fruitsArray[3])")
+        print("\(fruitsArray[4])")
+        
+        //TODO:seedkunDictionaryの中身はすべて順にデバックエリアに表示し、年齢を表示した後は、「若いですね！」住んでいるところを表示した後は、「そうなんだ！」と表示せよ
+        var seedkunDictionary = ["name":"seedくん","age":"3","addres":"Cebu","favorite":"サーフィン"]
+        //print(seedkunDictionary["name"]!)
+        
+        for (key,value) in seedkunDictionary{
+            print(value)
+            
+            if (key == "age"){
+                print("若いですね！")
+            }
+        
+            if (key == "address"){
+                print("そうなんだ！")
+            }
+        }
         
     }
 
